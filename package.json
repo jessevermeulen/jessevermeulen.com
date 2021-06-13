@@ -9,6 +9,7 @@
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
+    "@iconify/svelte": "^1.0.4",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.2.5",
     "cssnano": "^5.0.1",
@@ -28,5 +29,10 @@
     "svelte-preprocess": "^4.7.3",
     "tailwindcss": "^2.1.1"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@iconify-icons/ph": "^1.1.2",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.5"
+  }
 }
