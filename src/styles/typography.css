@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Clash Display var';
+	src: url('./static/fonts/ClashDisplay/ClashDisplay-Variable.woff2') format('woff2'),
+		url('./static/fonts/ClashDisplay/ClashDisplay-Variable.woff') format('woff'),
+		url('./static/fonts/ClashDisplay/ClashDisplay-Variable.ttf') format('truetype');
+	font-weight: 200 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Clash Display';
+	src: url('./static/fonts/ClashDisplay/ClashDisplay-Regular.woff2') format('woff2'),
+		url('./static/fonts/ClashDisplay/ClashDisplay-Regular.woff') format('woff'),
+		url('./static/fonts/ClashDisplay/ClashDisplay-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Basteleur';
+	src: url('./static/fonts/Basteleur/Basteleur-Bold.woff2') format('woff2'),
+		url('./static/fonts/Basteleur/Basteleur-Bold.woff') format('woff');
+	font-weight: 700;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Sentient Italic var';
+	src: url('./static/fonts/Sentient/Sentient-VariableItalic.woff2') format('woff2'),
+		url('./static/fonts/Sentient/Sentient-VariableItalic.woff') format('woff'),
+		url('./static/fonts/Sentient/Sentient-VariableItalic.ttf') format('truetype');
+	font-weight: 200 700;
+	font-display: swap;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Sentient Italic';
+	src: url('./static/fonts/Sentient/Sentient-Italic.woff2') format('woff2'),
+		url('./static/fonts/Sentient/Sentient-Italic.woff') format('woff'),
+		url('./static/fonts/Sentient/Sentient-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: italic;
+}
+
+@layer base {
+	:root {
+		--font-stack-default: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+			Cantarell, 'Open Sans';
+		--font-stack-base: 'Inter', var(--font-stack-default);
+		--font-stack-clash: 'Clash Display', var(--font-stack-base);
+		--font-stack-basteleur: 'Basteleur', var(--font-stack-base);
+		--font-stack-sentient: 'Sentient Italic', var(--font-stack-base);
+	}
+
+	@supports (font-variation-settings: normal) {
+		:root {
+			--font-stack-base: 'Inter var', 'Inter', var(--font-stack-default);
+			--font-stack-clash: 'Clash Display var', 'Clash Display', var(--font-stack-base);
+			--font-stack-sentient: 'Sentient Italic var', 'Sentient Italic', var(--font-stack-base);
+		}
+	}
+}
