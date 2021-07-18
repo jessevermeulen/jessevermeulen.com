@@ -8,20 +8,20 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-family: var(--font-stack-base);
-	color: inherit;
 }
 
 html,
 body {
-	color: #141414;
-	font-size: 100%;
+	color: var(--gray-900);
+	font-size: var(--font-size);
 	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+.container {
+	@apply px-4 sm:px-[1.51704rem] md:px-[1.82045rem] lg:px-[2.42727rem] xl:px-[3.03408] 2xl:px-[3.64088rem];
 }
 
 h1 {
 	@apply font-clash;
-}
-
-.font-basteleur {
-	font-size: 87.5%;
 }
