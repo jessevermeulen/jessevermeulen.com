@@ -10,5 +10,8 @@ module.exports = {
 			sentient: ['var(--font-stack-sentient)']
 		}
 	},
+	corePlugins: {
+		container: false
+	},
 	plugins: []
 };
