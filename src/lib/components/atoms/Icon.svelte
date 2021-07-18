@@ -1,19 +1,25 @@
 <script>
 	import Iconify from '@iconify/svelte';
 
+	import GlobeSimple from '@iconify-icons/ph/globe-simple';
+
 	export const icons = {
-		gradient: {
+		'globe-simple': GlobeSimple,
+
+		custom: {
+			'jv-logomark':
+				'<svg fill="none" viewBox="0 0 79 123" xmlns="http://www.w3.org/2000/svg"><path d="m12.605 37.16c31.815 0 63.63-10.605 63.63-31.815s-63.63 63.312-63.63 116.66c0 0 0-31.815-10.605-42.42" stroke="currentColor" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="4"/><path d="m23.21 122s0-53.025 53.025-84.84" stroke="currentColor" stroke-miterlimit="10" stroke-width="4"/></svg>',
 			'globe-simple':
 				'<svg fill="none" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"><path d="m31.735 13.922c-10.139 3.402-17.641 12.552-18.634 23.578h12.432c0.2572-7.3428 1.64-14.038 3.8193-19.128 0.6969-1.6275 1.4915-3.1293 2.3837-4.4498zm17.507 0c0.8922 1.3205 1.6869 2.8223 2.3837 4.4498 2.1794 5.0901 3.5621 11.785 3.8194 19.128h12.432c-0.9937-11.026-8.4955-20.176-18.635-23.578zm1.1998 23.578c-0.2557-6.7851-1.5398-12.786-3.4125-17.16-1.0518-2.4564-2.24-4.2845-3.432-5.4621-1.1814-1.167-2.229-1.5728-3.1086-1.5728-0.8797 0-1.9273 0.4058-3.1087 1.5728-1.192 1.1776-2.3802 3.0057-3.432 5.4621-1.8727 4.374-3.1567 10.375-3.4125 17.16h19.906zm-19.906 5h19.906c-0.2557 6.7851-1.5398 12.786-3.4125 17.16-1.0518 2.4565-2.24 4.2846-3.432 5.4622-1.1814 1.167-2.229 1.5727-3.1086 1.5727-0.8797 0-1.9273-0.4057-3.1087-1.5727-1.192-1.1776-2.3802-3.0057-3.432-5.4622-1.8727-4.3739-3.1567-10.375-3.4125-17.16zm-5.0032 0h-12.432c0.9936 11.026 8.4954 20.176 18.635 23.578-0.8922-1.3205-1.6869-2.8223-2.3838-4.4499-2.1793-5.0901-3.5621-11.785-3.8193-19.128zm23.71 23.578c0.8922-1.3205 1.6869-2.8223 2.3837-4.4499 2.1794-5.0901 3.5621-11.785 3.8193-19.128h12.432c-0.9937 11.026-8.4955 20.176-18.635 23.578zm-8.7533-58.578c-17.949 0-32.5 14.551-32.5 32.5s14.551 32.5 32.5 32.5c17.949 0 32.5-14.551 32.5-32.5s-14.551-32.5-32.5-32.5z" clip-rule="evenodd" fill="url(#a)" fill-rule="evenodd"/><defs><linearGradient id="a" x1="7.6372" x2="73.362" y1="7.6208" y2="72.379" gradientUnits="userSpaceOnUse"><stop stop-color="#F5EFEF" offset="0"/><stop stop-color="#FEADA6" offset="1"/></linearGradient></defs></svg>'
 		}
 	};
 
 	export let icon;
-	export let gradient = false;
+	export let custom = false;
 </script>
 
-{#if !gradient}
+{#if !custom}
 	<Iconify {...$$props} icon={icons[icon]} />
 {:else}
-	{@html icons.gradient[icon]}
+	{@html icons.custom[icon]}
 {/if}
