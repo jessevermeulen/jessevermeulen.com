@@ -1,7 +1,9 @@
 <script>
-	import '../styles/index.css';
-	import Header from '$lib/components/atoms/Header.svelte';
 	import * as animateScroll from 'svelte-scrollto';
+
+	import '$lib/styles/index.css';
+	import Header from '$lib/components/atoms/Header.svelte';
+	import Footer from '$lib/components/atoms/Footer.svelte';
 
 	animateScroll.setGlobalOptions({
 		duration: 200
@@ -12,4 +14,4 @@
 <main>
 	<slot />
 </main>
-<!-- Footer -->
+<!-- <Footer /> -->

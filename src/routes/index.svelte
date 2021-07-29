@@ -5,5 +5,5 @@
 </script>
 
 <Hero />
-<Intro />
-<Work />
+<!-- <Intro /> -->
+<!-- <Work /> -->

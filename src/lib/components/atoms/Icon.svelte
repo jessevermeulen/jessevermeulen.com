@@ -2,13 +2,15 @@
 	import Iconify from '@iconify/svelte';
 
 	import GlobeSimple from '@iconify-icons/ph/globe-simple';
+	import HeartStraight from '@iconify-icons/ph/heart-straight';
 
 	export const icons = {
 		'globe-simple': GlobeSimple,
+		'heart-straight': HeartStraight,
 
 		custom: {
 			'jv-logomark':
-				'<svg fill="none" viewBox="0 0 79 123" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="m12.605 37.16c31.815 0 63.63-10.605 63.63-31.815s-63.63 63.312-63.63 116.66c0 0 0-31.815-10.605-42.42" stroke="currentColor" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="4"/><path d="m23.21 122s0-53.025 53.025-84.84" stroke="currentColor" stroke-miterlimit="10" stroke-width="4"/></svg>',
+				'<svg fill="none" viewBox="0 0 79 123" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="m12.605 37.16c31.815 0 63.63-10.605 63.63-31.815s-63.63 63.312-63.63 116.66c0 0 0-31.815-10.605-42.42" stroke="currentColor" stroke-linejoin="bevel" stroke-miterlimit="10" stroke-width="2"/><path d="m23.21 122s0-53.025 53.025-84.84" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"/></svg>',
 			'globe-simple':
 				'<svg fill="none" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M74.9918 33.4139C50.658 41.5786 32.6537 63.5373 30.2691 90H60.1047C60.722 72.3771 64.0406 56.3095 69.2711 44.0932C70.9435 40.1872 72.8506 36.583 74.9918 33.4139ZM117.008 33.4139C119.149 36.583 121.056 40.1872 122.729 44.0932C127.959 56.3095 131.278 72.3771 131.895 90H161.731C159.346 63.5373 141.342 41.5786 117.008 33.4139ZM119.887 90C119.274 73.7157 116.192 59.3138 111.698 48.8164C109.173 42.9209 106.322 38.5335 103.461 35.7073C100.625 32.9065 98.1111 31.9326 96 31.9326C93.8889 31.9326 91.3746 32.9065 88.5393 35.7073C85.6784 38.5335 82.8267 42.9209 80.3025 48.8164C75.8079 59.3138 72.7262 73.7157 72.1125 90H119.887ZM72.1125 102H119.887C119.274 118.284 116.192 132.686 111.698 143.183C109.173 149.079 106.322 153.466 103.461 156.292C100.625 159.093 98.1111 160.067 96 160.067C93.8889 160.067 91.3746 159.093 88.5393 156.292C85.6784 153.466 82.8267 149.079 80.3025 143.183C75.8079 132.686 72.7262 118.284 72.1125 102ZM60.1047 102H30.2691C32.6537 128.463 50.6582 150.422 74.9921 158.586C72.8508 155.417 70.9436 151.813 69.2711 147.906C64.0406 135.69 60.7221 119.623 60.1047 102ZM117.008 158.586C119.149 155.417 121.056 151.813 122.729 147.906C127.959 135.69 131.278 119.623 131.895 102H161.731C159.346 128.463 141.342 150.422 117.008 158.586ZM96 18C52.9218 18 18 52.9218 18 96C18 139.078 52.9218 174 96 174C139.078 174 174 139.078 174 96C174 52.9218 139.078 18 96 18Z" fill="url(#paint0_linear)"/><defs><linearGradient id="paint0_linear" x1="18" y1="174" x2="174" y2="18" gradientUnits="userSpaceOnUse"><stop stop-color="#6855AB"/><stop offset="1" stop-color="#DFDAF2"/></linearGradient></defs></svg>'
 		}

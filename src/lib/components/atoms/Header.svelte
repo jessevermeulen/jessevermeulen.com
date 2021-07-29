@@ -41,7 +41,7 @@
 			<span class="sm:hidden">JV</span></button
 		>
 	</div>
-	<nav>
+	<!-- <nav>
 		<ul class="grid grid-flow-col gap-6">
 			<li>
 				<button type="button" on:click={() => animateScroll.scrollTo({ element: '#work' })}
@@ -55,7 +55,7 @@
 			</li>
 			<li><button type="button">Contact</button></li>
 		</ul>
-	</nav>
+	</nav> -->
 </header>
 
 <style>

@@ -20,10 +20,10 @@
 		<p class="text-2xl">
 			Looking for a 20-week-long Visual Design internship, starting this September.
 		</p>
-		<button
+		<!-- <button
 			type="button"
 			on:click={() => animateScroll.scrollTo({ element: '#about' })}
 			class="text-2xl animate-bounce-simple w-[fit-content]">↓</button
-		>
+		> -->
 	</div>
 </section>
