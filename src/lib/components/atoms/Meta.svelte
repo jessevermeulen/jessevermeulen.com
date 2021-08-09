@@ -1,4 +1,6 @@
 <script>
+	import { navigating, page } from '$app/stores';
+
 	export let title = 'Jesse Vermeulen — Digital Product Designer';
 	export let image = 'meta.png';
 	export let description =
@@ -6,21 +8,23 @@
 </script>
 
 <svelte:head>
-	<title>{title}</title>
-	<meta name="title" content={title} />
-	<meta name="description" content={description} />
+	{#key $navigating}
+		<title>{title}</title>
+		<meta name="title" content={title} />
+		<meta name="description" content={description} />
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://jessevermeulen.com{$page.path}" />
-	<meta property="og:title" content={title} />
-	<meta property="og:description" content={description} />
-	<meta property="og:image" content="https://jessevermeulen.com/{image}" />
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://jessevermeulen.com{$page.path}" />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content="https://jessevermeulen.com/{image}" />
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:url" content="https://jessevermeulen.com{$page.path}" />
-	<meta property="twitter:title" content={title} />
-	<meta property="twitter:description" content={description} />
-	<meta property="twitter:image" content="https://jessevermeulen.com/{image}" />
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://jessevermeulen.com{$page.path}" />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
+		<meta property="twitter:image" content="https://jessevermeulen.com/{image}" />
+	{/key}
 </svelte:head>
