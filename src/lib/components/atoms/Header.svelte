@@ -41,9 +41,9 @@
 			<span class="sm:hidden">JV</span></button
 		>
 	</div>
-	<!-- <nav>
+	<nav>
 		<ul class="grid grid-flow-col gap-6">
-			<li>
+			<!-- <li>
 				<button type="button" on:click={() => animateScroll.scrollTo({ element: '#work' })}
 					>Work</button
 				>
@@ -53,15 +53,18 @@
 					>About</button
 				>
 			</li>
-			<li><button type="button">Contact</button></li>
+			<li><button type="button">Contact</button></li> -->
+			<li>
+				<a href="mailto:hello@jessevermeulen.com" class="hover:text-gray-300 transition">Contact</a>
+			</li>
 		</ul>
-	</nav> -->
+	</nav>
 </header>
 
 <style>
-	li {
+	/* li {
 		&:hover {
 			@apply underline;
 		}
-	}
+	} */
 </style>
