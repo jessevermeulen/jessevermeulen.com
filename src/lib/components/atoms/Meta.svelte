@@ -10,6 +10,7 @@
 	<meta name="title" content={title} />
 	<meta name="description" content={description} />
 
+	<!-- Open Graph / Facebook -->
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://jessevermeulen.com{$page.path}" />
 	<meta property="og:title" content={title} />
