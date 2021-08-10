@@ -3,3 +3,6 @@ node_modules
 /.svelte-kit
 /build
 /functions
+/static/fonts/Basteleur
+/static/fonts/ClashDisplay
+/static/fonts/Sentient
