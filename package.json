@@ -26,7 +26,7 @@
 		"rehype-autolink-headings": "^5.0.1",
 		"rehype-slug": "^5.0.0",
 		"remark-abbr": "^1.4.1",
-		"remark-github": "^10.0.1",
+		"remark-github": "^11.0.0",
 		"svelte": "3.42.1",
 		"svelte-preprocess": "^4.7.3",
 		"tailwindcss": "^2.2.7"
