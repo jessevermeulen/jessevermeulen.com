@@ -6,15 +6,29 @@
 	let clientHeight;
 	let offset;
 	let scrollPosition;
+	let scrollOffset;
 	let isSticky = false;
 
-	onMount(() => {
+	animateScroll.setGlobalOptions({
+		duration: 200
+	});
+
+	function headerProperties() {
 		clientHeight = document.documentElement.clientHeight;
 		offset = clientHeight - headerHeight;
+		scrollOffset = -headerHeight / 8;
+
+		animateScroll.setGlobalOptions({
+			offset: scrollOffset
+		});
+	}
+
+	onMount(() => {
+		headerProperties();
 	});
 
 	function resize() {
-		offset = clientHeight - headerHeight;
+		headerProperties();
 	}
 
 	function sticky() {
@@ -30,7 +44,7 @@
 
 <header
 	bind:offsetHeight={headerHeight}
-	class="container grid grid-flow-col justify-between items-center w-full h-16 text-xl transition duration-[0.2s] border-b {!isSticky
+	class="container grid grid-flow-col justify-between items-center w-full py-4 z-50 text-xl transition duration-[0.2s] border-b {!isSticky
 		? 'absolute bottom-0 transform -translate-y-4 border-transparent bg-transparent'
 		: 'fixed border-gray-300 bg-white bg-opacity-90 backdrop-blur'}"
 	style={!isSticky ? `top: ${offset}px` : ''}
@@ -42,29 +56,20 @@
 		>
 	</div>
 	<nav>
-		<ul class="grid grid-flow-col gap-6">
-			<!-- <li>
-				<button type="button" on:click={() => animateScroll.scrollTo({ element: '#work' })}
-					>Work</button
-				>
-			</li>
+		<ul class="grid grid-flow-col gap-6 items-center">
 			<li>
 				<button type="button" on:click={() => animateScroll.scrollTo({ element: '#about' })}
 					>About</button
 				>
 			</li>
-			<li><button type="button">Contact</button></li> -->
 			<li>
-				<a href="mailto:hello@jessevermeulen.com" class="hover:text-gray-300 transition">Contact</a>
+				<button type="button" on:click={() => animateScroll.scrollTo({ element: '#cases' })}
+					>Work</button
+				>
+			</li>
+			<li>
+				<button type="button">Contact</button>
 			</li>
 		</ul>
 	</nav>
 </header>
-
-<style>
-	/* li {
-		&:hover {
-			@apply underline;
-		}
-	} */
-</style>
