@@ -1,0 +1,30 @@
+#cases {
+	.wrapper,
+	picture,
+	img,
+	video {
+		@apply rounded-sm;
+	}
+
+	.date {
+		@apply self-start;
+	}
+
+	.g-element {
+		@apply grid p-4 gap-4 md:gap-12 md:p-12 rounded-sm;
+
+		&-wrapper {
+			@apply grid col-span-full md:grid-cols-2 gap-2 auto-rows-fr md:auto-rows-auto;
+		}
+	}
+
+	.g-image {
+		&-wrapper {
+			@apply relative overflow-hidden;
+		}
+
+		img {
+			@apply absolute h-full object-cover;
+		}
+	}
+}
