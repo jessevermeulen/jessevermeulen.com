@@ -1,3 +1,8 @@
+/*
+	Author: Cassidy Bandy
+	https://cass.moe/blog/svelte-kit-mdsvex
+*/
+
 import pMap from 'p-map';
 import { basename } from 'path';
 
