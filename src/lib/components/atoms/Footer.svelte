@@ -4,7 +4,7 @@
 	let date = new Date().getFullYear();
 </script>
 
-<footer
+<!-- <footer
 	class="container mx-auto relative h-screen grid justify-center items-center overflow-hidden bg-gray-900"
 >
 	<h2 class="text-white">Creating things with purpose</h2>
@@ -16,4 +16,10 @@
 	>
 		<Icon class="icon" custom icon="jv-logomark" />
 	</div>
+</footer> -->
+
+<footer id="contact" class="container mx-auto grid gap-24 pt-24 pb-8 text-center">
+	<a href="mailto:hello@jessevermeulen.com" class="text-2xl sm:text-4xl">hello@jessevermeulen.com</a
+	>
+	<p>&copy; Jesse Vermeulen {date}</p>
 </footer>

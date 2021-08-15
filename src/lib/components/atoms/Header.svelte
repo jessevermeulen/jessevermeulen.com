@@ -68,7 +68,9 @@
 				>
 			</li>
 			<li>
-				<button type="button">Contact</button>
+				<button type="button" on:click={() => animateScroll.scrollTo({ element: '#contact' })}
+					>Contact</button
+				>
 			</li>
 		</ul>
 	</nav>
