@@ -14,7 +14,7 @@ slug: sad-indie
   import Image from 'svimg';
 </script>
 
-<div class="bg-[#1B1D21]">
+<div class="rounded-sm bg-[#1B1D21]">
   <video class="lozad" autoplay muted loop playsinline data-poster="/cases/sad-indie/0001.png">
     <source data-src="/cases/sad-indie/0004.mp4" type="video/mp4" />
   </video>
