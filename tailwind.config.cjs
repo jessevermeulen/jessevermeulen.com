@@ -1,6 +1,6 @@
 module.exports = {
 	mode: 'jit',
-	purge: ['./src/**/*.{html,js,svelte,ts}'],
+	purge: ['./src/**/*.{html,js,svelte,svelte.md,ts}'],
 	theme: {
 		fontFamily: {
 			body: ['var(--font-stack-base)'],
@@ -23,7 +23,7 @@ module.exports = {
 				}
 			},
 			animation: {
-				'bounce-simple': 'bounceSimple 2s cubic-bezier( 0.445, 0.05, 0.55, 0.95) infinite'
+				'bounce-simple': 'bounceSimple 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite'
 			}
 		}
 	},
