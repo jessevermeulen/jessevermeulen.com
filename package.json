@@ -28,11 +28,14 @@
 		"remark-github": "10.0.1",
 		"svelte": "3.42.1",
 		"svelte-preprocess": "^4.7.3",
+		"svimg": "^0.5.0",
 		"tailwindcss": "^2.2.7"
 	},
 	"type": "module",
 	"dependencies": {
 		"@iconify-icons/ph": "^1.1.2",
+		"lozad": "^1.16.0",
+		"p-map": "^5.1.0",
 		"postcss-import": "^14.0.2",
 		"postcss-nested": "^5.0.5",
 		"svelte-scrollto": "^0.2.0"
