@@ -20,8 +20,9 @@
 		</p>
 		<p>
 			For more information say hello at
-			<a href="mailto:hello@jessevermeulen.com" class="before:block border-b border-gray-900"
-				>hello@jessevermeulen.com</a
+			<a
+				href="mailto:hello@jessevermeulen.com"
+				class="before:block border-b-[0.1rem] border-gray-900">hello@jessevermeulen.com</a
 			>
 		</p>
 	</div>

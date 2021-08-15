@@ -18,8 +18,10 @@
 	</div>
 </footer> -->
 
-<footer id="contact" class="container mx-auto grid gap-24 pt-24 pb-8 text-center">
-	<a href="mailto:hello@jessevermeulen.com" class="text-2xl sm:text-4xl">hello@jessevermeulen.com</a
+<footer id="contact" class="container mx-auto grid justify-center gap-24 pt-24 pb-8 text-center">
+	<a
+		href="mailto:hello@jessevermeulen.com"
+		class="text-2xl sm:text-4xl border-b-[0.1rem] border-gray-900">hello@jessevermeulen.com</a
 	>
 	<p>&copy; Jesse Vermeulen {date}</p>
 </footer>
