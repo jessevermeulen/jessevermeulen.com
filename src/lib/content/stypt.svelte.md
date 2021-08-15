@@ -16,11 +16,11 @@ slug: stypt
 </script>
 
 <div class="g-element-wrapper">
-  <div class="col-span-full relative rounded-sm bg-gray-900 before:absolute before:w-full before:h-full before:opacity-20 before:bg-gray-900">
-    <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 mx-auto w-8 lg:w-16 text-white">
+  <div class="g-image-wrapper col-span-full rounded-sm bg-gray-300 after:absolute after:top-0 after:w-full after:h-full after:opacity-20 after:bg-gray-900">
+    <Image src="/cases/stypt/0004.png" alt="Man doing a heavy exercise with ropes" class="g-image"/>
+    <div class="absolute inset-x-0 top-1/2 -translate-y-1/2 mx-auto w-8 lg:w-16 z-10 text-white">
       <Icon class="icon" custom icon="stypt-logomark" />
     </div>
-    <Image src="/cases/stypt/0004.png" alt="Man doing a heavy exercise with ropes" class="cover-image" />
   </div>
 
   <div class="g-element bg-gray-300">

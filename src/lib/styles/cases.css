@@ -19,11 +19,13 @@
 	}
 
 	.g-image {
+		@apply h-full;
+
 		&-wrapper {
 			@apply relative overflow-hidden;
 		}
 
-		img {
+		.image {
 			@apply absolute h-full object-cover;
 		}
 	}
