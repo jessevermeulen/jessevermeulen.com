@@ -1,5 +1,8 @@
-<section id="about" class="container mx-auto grid grid-cols-6 sm:grid-cols-8 lg:grid-cols-12 gap-4">
-	<div class="grid col-span-6 gap-8 pt-24 pb-32">
+<section
+	id="about"
+	class="container mx-auto grid grid-cols-6 sm:grid-cols-8 lg:grid-cols-12 gap-4 pt-24 pb-8"
+>
+	<div class="grid col-span-6 gap-8">
 		<p>
 			Jesse Vermeulen is an Amsterdam based Digital Product Designer with over 8 years of experience
 			in both design and development. He worked as a frontend developer at agencies as PXL.Widgets
