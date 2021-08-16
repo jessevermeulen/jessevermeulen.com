@@ -112,19 +112,19 @@
     esbuild "^0.12.5"
 
 "@sveltejs/kit@next":
-  version "1.0.0-next.146"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.146.tgz#bb0a97a86afbf644b7c389b68a7aba885429fd55"
-  integrity sha512-MSatcaCRfjl88Prd5mW4pNOJ3Gsr525+Vjr24MoKtyTt6PZQmTfQsDVwyP93exn/6w2xl9uMCW6cFpDVBu7jSg==
+  version "1.0.0-next.151"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.151.tgz#6cd086e0f73c40de1ed9625a69af0e2f2773749c"
+  integrity sha512-dioqHt4XxqiZ+5dEL6hFG1fBuVMc5t9l9bmvUeJX6neyut432IcVLdl4t3utmD10Lu8fbybJPRkHy1PVAbHWwQ==
   dependencies:
-    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.14"
+    "@sveltejs/vite-plugin-svelte" "^1.0.0-next.16"
     cheap-watch "^1.0.3"
     sade "^1.7.4"
     vite "^2.4.3"
 
-"@sveltejs/vite-plugin-svelte@^1.0.0-next.14":
-  version "1.0.0-next.15"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.15.tgz#12e853677387aa0891b03bf69afcc678fbf8f8e2"
-  integrity sha512-8yGX7PxaqtvWw+GHiO2DV7lZ4M7DwIrFq+PgZGZ9X09PuoSeaWszm76GWQXJMKHoPPhdA9084662en9qbv4aRw==
+"@sveltejs/vite-plugin-svelte@^1.0.0-next.16":
+  version "1.0.0-next.17"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.0-next.17.tgz#25a088e71e1a6e0a6701e5fa70ccde353b7783c2"
+  integrity sha512-Xh/YYqBMDJnDheutnGHk/I5TO6w9gZ2GMgvG+qQm/gpIRkaTLts6Mw5xDe6cac/nH/aVPPVPibhq2pf26d44fA==
   dependencies:
     "@rollup/pluginutils" "^4.1.1"
     debug "^4.3.2"
