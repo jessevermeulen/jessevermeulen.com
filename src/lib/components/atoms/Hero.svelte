@@ -17,9 +17,6 @@
 		<h1>
 			<span class="after:block">Digital Product Designer</span>Amsterdam — NL
 		</h1>
-		<p class="text-2xl">
-			Looking for a 20-week-long Visual Design internship, starting this September.
-		</p>
 		<button
 			type="button"
 			on:click={() => animateScroll.scrollTo({ element: '#about' })}
